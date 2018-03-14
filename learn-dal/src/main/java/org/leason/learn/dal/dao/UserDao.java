@@ -7,5 +7,11 @@ import org.leason.learn.dal.dataobject.UserDO;
  */
 public interface UserDao {
 
+    /**
+     * 插入用户
+     *
+     * @param userDO
+     * @return
+     */
     int insertSelective(UserDO userDO);
 }
